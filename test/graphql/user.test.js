@@ -20,7 +20,7 @@ beforeEach(async () => {
             email: "admin@admin.com",
             password: "admin123"
         })
-        .stores('token', 'data.authUser.token')
+        .returns('token', 'data.authUser.token')
 })
 
 
